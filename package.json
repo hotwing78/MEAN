@@ -1,0 +1,19 @@
+{
+  "name": "mean",
+  "version": "1.0.0",
+  "description": "A simple application using the MEAN technology stack",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hotwing78/MEAN.git"
+  },
+  "author": "Damon Wingo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hotwing78/MEAN/issues"
+  },
+  "homepage": "https://github.com/hotwing78/MEAN#readme"
+}
