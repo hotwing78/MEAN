@@ -1,6 +1,6 @@
 modules.exports = function(app){
 
-  app.factory('MainServices',[function(){
+  app.factory('PostServices',[function(){
     var p = {
       posts:[]
     };

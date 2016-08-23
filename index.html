@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8">
     <title>Flapper News</title>
-    <!--Angular-->
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.js"></script>
-    <!--js files -->
-      <script src='/js/app.js'></script>
     <!--bootstrap-->
-  </head>
-  <body ng-app = 'flapperNews' ng-controller = 'MainCtrl'>
-    <div class="page-header">
-      <h1>Flapper News</h1>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+    <!--Angular-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.js"></script>
+    <!--js files -->
+    <script src='/js/app.js'></script>
+
+</head>
+
+<body ng-app='flapperNews' ng-controller='MainCtrl'>
+    <div class="row">
+        <div class="page-header">
+            <h1>Flapper News</h1>
+        </div>
+        <<ui-view></ui-view>
     </div>
-  <<ui-view></ui-view>
-  </body>
+</body>
+
 </html>
