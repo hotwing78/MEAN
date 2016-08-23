@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/hotwing78/MEAN/issues"
   },
-  "homepage": "https://github.com/hotwing78/MEAN#readme"
+  "homepage": "https://github.com/hotwing78/MEAN#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-minify": "0.0.14"
+  }
 }
